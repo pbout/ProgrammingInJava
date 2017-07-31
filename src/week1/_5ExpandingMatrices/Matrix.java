@@ -5,6 +5,14 @@ public class Matrix {
     private int[][] array;
 
     /**
+     * getter used for exersise 6.
+     * @return
+     */
+    public int[][]getArray(){
+        return array;
+    }
+
+    /**
      * Constructor sets the size of the array and initializes
      * all elements to 1.
      * @param x     x size of the 2D array.
