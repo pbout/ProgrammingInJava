@@ -1,4 +1,4 @@
-package week1._6SymmetryLooksPretty;
+package week5._6SymmetryLooksPretty;
 
 public class MatrixChecker {
 

@@ -1,4 +1,4 @@
-package week1._2CheckingArrays;
+package week5._2CheckingArrays;
 
 public class CheckingArrays {
 

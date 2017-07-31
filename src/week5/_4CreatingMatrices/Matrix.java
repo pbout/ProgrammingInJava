@@ -1,4 +1,4 @@
-package week1._4CreatingMatrices;
+package week5._4CreatingMatrices;
 
 public class Matrix {
 

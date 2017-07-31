@@ -1,4 +1,4 @@
-package week1._4CreatingMatrices;
+package week5._5ExpandingMatrices;
 
 public class Run {
     public static void main(String[] args) {
@@ -24,5 +24,10 @@ public class Run {
 
         System.out.println("Getting the single line string equivalent of the array");
         System.out.println(matrix.toString());
+        System.out.println("");
+
+        System.out.println("Creating a new matrix using a textual representation: 4,5,6;3,4,5;1,1,1;1,9,9");
+        matrix.setMatrix("4,5,6;3,4,5;1,1,1;1,9,9");
+        matrix.prettyPrint();
     }
 }

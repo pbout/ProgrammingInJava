@@ -1,4 +1,4 @@
-package week1._1DevidingIntegers;
+package week5._1DevidingIntegers;
 
 import java.util.Scanner;
 

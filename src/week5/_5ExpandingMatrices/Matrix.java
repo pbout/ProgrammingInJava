@@ -1,4 +1,4 @@
-package week1._5ExpandingMatrices;
+package week5._5ExpandingMatrices;
 
 public class Matrix {
 

@@ -1,7 +1,7 @@
-package week1._6SymmetryLooksPretty;
+package week5._6SymmetryLooksPretty;
 
 
-import week1._5ExpandingMatrices.Matrix;
+import week5._5ExpandingMatrices.Matrix;
 
 public class Run {
     public static void main(String[] args) {
