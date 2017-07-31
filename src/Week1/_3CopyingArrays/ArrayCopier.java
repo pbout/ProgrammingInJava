@@ -1,4 +1,4 @@
-package Week1._3CopyingArrays;
+package week1._3CopyingArrays;
 
 public class ArrayCopier {
     private String[] src = {"a","4","b","g","g","H","C","6"};
