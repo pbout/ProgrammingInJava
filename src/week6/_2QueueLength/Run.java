@@ -11,8 +11,7 @@ public class Run {
 
     public void start(){
         Hospital hospital = new Hospital();
-        PatientList list = new PatientList();
-        list.setHospital(hospital);
+        PatientList list = new PatientList(hospital);
 
         System.out.println("The current size of the empty list is: " + list.size());
         hospital.addPatient(new Patient("Tom Guy", 5, "Stomachache"));
