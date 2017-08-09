@@ -33,5 +33,35 @@ public class Run {
         System.out.println("The patient at index 6 is: " + hospital.getPatient(6).toString());
         System.out.println("The patient at index 7 is: " + hospital.getPatient(7).toString());
 
+        System.out.println(hospital.printAll());
+        System.out.println(hospital.printPatient(hospital.getPatient(1)));
+        hospital.delete(1);
+        System.out.println(hospital.printAll());
+        hospital.delete(6);
+        System.out.println(hospital.printAll());
+        hospital.delete(3);
+        System.out.println(hospital.printAll());
+        hospital.delete(2);
+        System.out.println(hospital.printAll());
+        hospital.delete(1);
+        System.out.println(hospital.printAll());
+        hospital.add(new Patient("Koby", 20, "Rash"));
+        System.out.println("The size now is: " + hospital.size());
+        hospital.add(new Patient("Miranda", 101, "Eyesore"));
+        System.out.println("The size now is: " + hospital.size());
+        System.out.println(hospital.printAll());
+        hospital.delete(1);
+        System.out.println(hospital.printAll());
+        hospital.delete(12);
+        System.out.println(hospital.printAll());
+        hospital.delete(1);
+        System.out.println(hospital.printAll());
+        hospital.delete(10);
+        System.out.println(hospital.printAll());
+        hospital.delete(1);
+        System.out.println(hospital.printAll());
+        hospital.delete(1);
+        System.out.println(hospital.printAll());
+
     }
 }
