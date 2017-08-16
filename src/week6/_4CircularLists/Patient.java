@@ -1,4 +1,4 @@
-package week6._3DoublyLinkedLists;
+package week6._4CircularLists;
 
 public class Patient {
     private String name;

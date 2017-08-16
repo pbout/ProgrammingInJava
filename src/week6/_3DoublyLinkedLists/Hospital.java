@@ -126,12 +126,11 @@ public class Hospital {
      *                          objects are null (either one or both).
      */
     public boolean areEqual(Patient patient1, Patient patient2){
-        if (patient1 == null || patient2 == null){
-            return false;
-        }
-        return patient1.getName() == patient2.getName() &&
+        return patient1 != null &&
+                patient2 != null &&
+                patient1.getName().equals(patient2.getName()) &&
                 patient1.getAge() == patient2.getAge() &&
-                patient1.getIllness() == patient2.getIllness() &&
+                patient1.getIllness().equals(patient2.getIllness()) &&
                 patient1.getNextPatient() == patient2.getNextPatient() &&
                 patient1.getPrevPatient() == patient2.getPrevPatient();
     }
