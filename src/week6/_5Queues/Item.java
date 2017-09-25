@@ -1,17 +1,17 @@
 package week6._5Queues;
 
 public class Item {
-    int value;
-    Item next;
-    Item previous;
+    private int value;
+    private Item next;
+    private Item previous;
 
-    public Item(int value){
+    Item(int value){
         this.value = value;
         next = null;
         previous = null;
     }
 
-    public Item getNext(){
+    Item getNext(){
         return next;
     }
 
@@ -19,11 +19,15 @@ public class Item {
         return previous;
     }
 
-    public void setNext(Item item){
+    void setNext(Item item){
         this.next = item;
     }
 
-    public void setPrevious(Item item){
+    void setPrevious(Item item){
         this.previous = item;
     }
+
+    public int getValue() { return value; }
+
+    public void setValue(int value) { this.value = value; }
 }

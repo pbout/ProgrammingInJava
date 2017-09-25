@@ -15,20 +15,29 @@ public class Run {
     /**
      * Loops through user input and prints the employees at the end
      * as per objective instructions.
+     * TODO : Only even entries are saved !?!?!?!
      */
     private void start(){
         int id = 0;
         String name = "";
         do {
-            expandArrays();
             System.out.print("Please enter an ID: ");
-            // TODO entering nothing results in nullPointerException
-            id = Integer.parseInt(s.nextLine());
-            System.out.print("Please enter a name: ");
-            name = s.nextLine();
-            ids[ids.length-1] = id;
-            names[names.length-1] = name;
-        }while(id != 0 && name != "");
+            String input = s.nextLine();
+            if (!input.isEmpty()){
+                id = Integer.parseInt(input);
+                System.out.print("Please enter a name: ");
+                name = s.nextLine();
+                if (!name.isEmpty()){
+                    expandArrays();
+                    ids[ids.length-1] = id;
+                    names[names.length-1] = name;
+                }else{
+                    name="";
+                }
+            }else{
+                System.out.println("Please enter an ID or 0 to finish.");
+            }
+        }while(id != 0 && !name.equals(""));
 
         printEmployee();
     }
@@ -36,7 +45,6 @@ public class Run {
     /**
      * Expands the arrays holding the user information by 1 prior to adding
      * new data.
-     * TODO: Could be changed to the form array = expand(array); for better clarity and reusability
      */
     private void expandArrays(){
 

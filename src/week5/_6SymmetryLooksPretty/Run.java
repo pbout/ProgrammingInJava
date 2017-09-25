@@ -33,6 +33,16 @@ public class Run {
         matrix.setMatrix("1,0,0,0,0;1,1,0,0,0;1,1,1,0,0;1,1,1,1,0;1,1,1,1,1");
         matrix.prettyPrint();
         System.out.println("Is the matrix triangular? " + checkMatrix.isTriangular(matrix.getArray()));
+<<<<<<< Updated upstream
+=======
 
+        matrix.setMatrix("1,0,0;1,1,0;1,1,1");
+        matrix.prettyPrint();
+        System.out.println("Is the matrix triangular? " + checkMatrix.isTriangular(matrix.getArray()));
+>>>>>>> Stashed changes
+
+        matrix.setMatrix("1,0,0,0,0;1,1,0,0,1;1,1,1,0,0;1,1,1,1,0;1,1,1,1,1");
+        matrix.prettyPrint();
+        System.out.println("Is the matrix triangular? " + checkMatrix.isTriangular(matrix.getArray()));
     }
 }

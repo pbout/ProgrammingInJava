@@ -40,12 +40,14 @@ public class MatrixChecker {
      * @return          Returns true if the array is symmetrical,
      *                  false otherwise.
      */
-    //TODO: Doesnt work as intended
     public boolean isTriangular(int[][] input){
         for (int i = 0; i < input.length; i++){
             for(int j = 0; j < input[0].length; j++){
                 if (input[i][j] != 0 && j > i){
+<<<<<<< Updated upstream
                     System.out.println("Fails at: " + i + " " + j );
+=======
+>>>>>>> Stashed changes
                     return false;
                 }
             }
