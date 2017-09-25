@@ -29,24 +29,13 @@ public class Run {
         matrix.prettyPrint();
 
         System.out.println("Is the matrix symmetrical? " + checkMatrix.isSymmetrical(matrix.getArray()));
-
         matrix.setMatrix("1,0,0,0,0;1,1,0,0,0;1,1,1,0,0;1,1,1,1,0;1,1,1,1,1");
         matrix.prettyPrint();
         System.out.println("Is the matrix triangular? " + checkMatrix.isTriangular(matrix.getArray()));
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 
         matrix.setMatrix("1,0,0;1,1,0;1,1,1");
         matrix.prettyPrint();
         System.out.println("Is the matrix triangular? " + checkMatrix.isTriangular(matrix.getArray()));
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-
         matrix.setMatrix("1,0,0,0,0;1,1,0,0,1;1,1,1,0,0;1,1,1,1,0;1,1,1,1,1");
         matrix.prettyPrint();
         System.out.println("Is the matrix triangular? " + checkMatrix.isTriangular(matrix.getArray()));
