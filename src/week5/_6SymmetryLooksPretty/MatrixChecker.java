@@ -45,7 +45,10 @@ public class MatrixChecker {
             for(int j = 0; j < input[0].length; j++){
                 if (input[i][j] != 0 && j > i){
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     System.out.println("Fails at: " + i + " " + j );
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                     return false;
