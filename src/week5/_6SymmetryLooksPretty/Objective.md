@@ -4,9 +4,9 @@ Make a class MatrixChecker with three methods:
 - **isSymmetrical(int[])** takes an array of int and returns true if the array is symmetrical and false 
 otherwise. An array is symmetrical if the element at <u>[0]</u> is the same as the element at <u>[length-1]</u>, 
 the element at <u>[1]</u> is thesame as the element at <u>[length-2]</u>, etc.
-- **isSymmetrical(int[][])** takes an bidimensional array of int and returns true if the matrix is symmetrical
+- **isSymmetrical(int[][])** takes a bidimensional array of int and returns true if the matrix is symmetrical
 and false otherwise. An matrix is symmetrical if <u>m[i][j] == m[j][i]</u> for any value of i and j
-- **isTriangular(int[][])** takes an bidimensional array of int and returns true if the matrix is triangular
+- **isTriangular(int[][])** takes a bidimensional array of int and returns true if the matrix is triangular
 and false otherwise. An matrix is triangular if <u>m[i][j] == 0</u> for any value of i that is greater than
 j. 
 
