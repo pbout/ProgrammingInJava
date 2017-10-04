@@ -1,4 +1,4 @@
-package day6._8InstanceCounter;
+package day6_OntoJava._8InstanceCounter;
 
 public class Spy {
     private static int spyCount = 0;

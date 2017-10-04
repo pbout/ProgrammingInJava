@@ -1,4 +1,4 @@
-package day6._3DoublyLinkedLists;
+package day6_OntoJava._3DoublyLinkedLists;
 
 public class Patient {
     private String name;

@@ -1,4 +1,4 @@
-package day6._5Queues;
+package day6_OntoJava._5Queues;
 
 public class Item {
     private int value;

@@ -1,7 +1,7 @@
-package day5._6SymmetryLooksPretty;
+package day5_TransitionToJava._6SymmetryLooksPretty;
 
 
-import day5._5ExpandingMatrices.Matrix;
+import day5_TransitionToJava._5ExpandingMatrices.Matrix;
 
 public class Run {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day6._7FromArrayToList;
+package day6_OntoJava._7FromArrayToList;
 import utilities.ArrayUtilities;
 import utilities.Int;
 

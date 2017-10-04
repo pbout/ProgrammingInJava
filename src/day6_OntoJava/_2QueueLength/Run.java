@@ -1,7 +1,7 @@
-package day6._2QueueLength;
+package day6_OntoJava._2QueueLength;
 
-import day6._1SinglyLinkedLists.Hospital;
-import day6._1SinglyLinkedLists.Patient;
+import day6_OntoJava._1SinglyLinkedLists.Hospital;
+import day6_OntoJava._1SinglyLinkedLists.Patient;
 
 public class Run {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day5._1DevidingIntegers;
+package day5_TransitionToJava._1DevidingIntegers;
 
 import java.util.Scanner;
 

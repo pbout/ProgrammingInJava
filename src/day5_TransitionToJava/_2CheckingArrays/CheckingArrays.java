@@ -1,4 +1,4 @@
-package day5._2CheckingArrays;
+package day5_TransitionToJava._2CheckingArrays;
 
 public class CheckingArrays {
 

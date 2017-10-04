@@ -1,4 +1,4 @@
-package day6._6Stacks;
+package day6_OntoJava._6Stacks;
 
 public class Run {
     public static void main(String[] args){

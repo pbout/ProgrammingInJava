@@ -1,4 +1,4 @@
-package day5._4CreatingMatrices;
+package day5_TransitionToJava._4CreatingMatrices;
 
 public class Run {
     public static void main(String[] args) {

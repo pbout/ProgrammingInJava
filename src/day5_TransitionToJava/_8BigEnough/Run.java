@@ -1,4 +1,4 @@
-package day5._8BigEnough;
+package day5_TransitionToJava._8BigEnough;
 
 import java.util.Scanner;
 

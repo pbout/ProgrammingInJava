@@ -1,4 +1,4 @@
-package day5._5ExpandingMatrices;
+package day5_TransitionToJava._5ExpandingMatrices;
 
 public class Matrix {
 

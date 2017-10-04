@@ -1,4 +1,4 @@
-package day6._4CircularLists;
+package day6_OntoJava._4CircularLists;
 
 public class Run {
     public static void main(String[] args) {

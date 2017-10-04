@@ -1,4 +1,4 @@
-package day6._1SinglyLinkedLists;
+package day6_OntoJava._1SinglyLinkedLists;
 
 public class Hospital {
     private Patient firstPatient = null;

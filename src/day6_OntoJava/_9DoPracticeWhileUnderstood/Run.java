@@ -1,4 +1,4 @@
-package day6._9DoPracticeWhileUnderstood;
+package day6_OntoJava._9DoPracticeWhileUnderstood;
 
 import java.util.Scanner;
 
@@ -9,14 +9,34 @@ public class Run {
     }
 
     public void start(){
-        Marks m = new Marks();
-        Boolean end = false;
-        while(!end){
+        int current = 0;
+        int students = 0;
+        int distinctions = 0;
+        int pass = 0;
+        int fail = 0;
+        int invalid = 0;
+        while (current!=-1){
             Scanner s = new Scanner(System.in);
-            System.out.println("Enter next grade: ");
-            end = m.addMark(s.nextInt());
-            System.out.println("You entered: " + s.nextInt());
+            System.out.print("Input a mark: ");
+            current = s.nextInt();
+            if (current >= 70 && current <=100){
+                students++;
+                distinctions++;
+            }else if(current >=50 && current <= 69){
+                students++;
+                pass++;
+            }else if(current >= 0 && current <= 49){
+                students++;
+                fail++;
+            }else{
+                invalid++;
+            }
         }
-        m.printAll();
+        System.out.println("There are " + students +
+                " students: " + distinctions +
+                " distinctions, " + pass +
+                " pass, " + fail +
+                " fails (plus " +invalid +
+                " invalid).");
     }
 }

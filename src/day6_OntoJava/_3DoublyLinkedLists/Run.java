@@ -1,4 +1,4 @@
-package day6._3DoublyLinkedLists;
+package day6_OntoJava._3DoublyLinkedLists;
 
 public class Run {
     public static void main(String[] args) {

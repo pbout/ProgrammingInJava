@@ -1,4 +1,4 @@
-package day5._3CopyingArrays;
+package day5_TransitionToJava._3CopyingArrays;
 
 public class ArrayCopier {
     private String[] src = {"a","4","b","g","g","H","C","6"};

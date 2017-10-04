@@ -1,4 +1,4 @@
-package day5._7AntiAircraftAim;
+package day5_TransitionToJava._7AntiAircraftAim;
 
 public class Target {
 

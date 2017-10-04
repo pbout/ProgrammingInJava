@@ -1,4 +1,4 @@
-package day5._6SymmetryLooksPretty;
+package day5_TransitionToJava._6SymmetryLooksPretty;
 
 public class MatrixChecker {
 
