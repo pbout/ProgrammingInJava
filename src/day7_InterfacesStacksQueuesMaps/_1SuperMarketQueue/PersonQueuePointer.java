@@ -44,7 +44,6 @@ public class PersonQueuePointer implements PersonQueue {
      */
     @Override
     public Person retrieve() {
-        System.out.println("Size is:" + size);
         Person serve = first;
         if (size > 2) {
             first = first.getPrevious();
@@ -65,5 +64,4 @@ public class PersonQueuePointer implements PersonQueue {
         }
         return serve;
     }
-
 }
