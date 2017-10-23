@@ -1,4 +1,4 @@
-# Creating matrices
+# 4. Creating matrices
 Create a class **Matrix** that has a 2-D array of integers as a field. The
 class should have methods for:
 

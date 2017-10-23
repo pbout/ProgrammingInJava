@@ -1,4 +1,4 @@
-#Symmetry Looks Pretty
+# 6. Symmetry Looks Pretty
 
 Make a class MatrixChecker with three methods:
 - **isSymmetrical(int[])** takes an array of int and returns true if the array is symmetrical and false 

@@ -1,4 +1,4 @@
-# Calculator
+# 1. Calculator
 Create a Java class called Calculator. The class should implement the following methods, each of them printing
 the result on the screen.
 

@@ -1,4 +1,4 @@
-#Doubly Linked Lists
+# 3. Doubly Linked Lists
 A **doubly-linked list** is a dynamic list in which each element is connected to <u>two</u>
 other elements instead of just one: the one before and the one after it. In this 
 exercise, you must create a doubly-linked list using the “hospital and patients” 

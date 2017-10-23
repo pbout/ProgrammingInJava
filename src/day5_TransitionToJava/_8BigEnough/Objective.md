@@ -1,4 +1,4 @@
-# Big Enough (*)
+# 8. Big Enough (*)
 Write a small program that asks for the names and IDs of all employees in a small company, 
 and store them in an array of integers and an array of Strings. (You will need to create
 a Java class to hold the arrays, and to access them).

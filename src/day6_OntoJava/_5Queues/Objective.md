@@ -1,4 +1,4 @@
-# Queues (*)
+# 5. Queues (*)
 A queue is a dynamic structure that implements these methods:
 - **insert(...)** inserts an element at the beginning of the queue.
 - **retrieve(...)** remove an element from the end of the queue.

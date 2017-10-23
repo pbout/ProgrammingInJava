@@ -1,4 +1,4 @@
-# Checking Arrays
+# 2. Checking Arrays
 Create a new Java class called ArrayChecker with two methods:
 
 - **isSymetrical(int[ ): ]** a method that returns true if the array of int provided as argument is symmetrical and

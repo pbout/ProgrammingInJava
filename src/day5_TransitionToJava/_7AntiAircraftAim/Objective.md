@@ -1,4 +1,4 @@
-## Anti-aircraft aim (*)
+# 7. Anti-aircraft aim (*)
 Create an enumerated type Result in its own file. The enum must have 8 possible values: HIT, FAIL
 LEFT, FAIL RIGHT, FAIL HIGH, FAIL LOW, FAIL SHORT, FAIL LONG, OUT OF RANGE. _Hint: the enum must be
 public_ Then create a Java class Target with the following methods:

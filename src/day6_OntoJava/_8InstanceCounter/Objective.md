@@ -1,4 +1,4 @@
-# Instance counter
+# 8. Instance counter
 
 **Note:** This exercise is designed to help you practice the meaning of
 _static_ fields. However, remember that adding static fields to your 

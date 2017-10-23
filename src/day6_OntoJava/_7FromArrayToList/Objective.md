@@ -1,4 +1,4 @@
-#From array to list
+# 7. From array to list
 
 Create a _static_ method that takes an array of integers and returns a 
 linked list of integers in the same order as the original array. 

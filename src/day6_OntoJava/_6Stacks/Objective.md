@@ -1,4 +1,4 @@
-# Stacks (*)
+# 6. Stacks (*)
 
 A stack is a dynamic structure that implements these methods: 
 

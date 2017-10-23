@@ -1,4 +1,4 @@
-# Singly-linked lists
+# 1. Singly-linked lists
 Create a linked list following the “hospital and patients” example of the notes:
 - Create the linked list and add several elements to it (around 10 is fi
 ne).
