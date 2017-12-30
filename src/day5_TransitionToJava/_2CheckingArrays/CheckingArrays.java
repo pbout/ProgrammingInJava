@@ -2,8 +2,8 @@ package day5_TransitionToJava._2CheckingArrays;
 
 public class CheckingArrays {
 
-    public static final String[] SYMMETRICAL_ARRAY = {"1","2","3","A","B","A","3","2","1"};
-    public static final String[] NON_SYMMETRICAL_ARRAY = {"1","4","3","d","w","4"};
+    private static final String[] SYMMETRICAL_ARRAY = {"1","2","3","A","B","A","3","2","1"};
+    private static final String[] NON_SYMMETRICAL_ARRAY = {"1","4","3","d","w","4"};
 
     public static void main(String[] args) {
         CheckingArrays ch = new CheckingArrays();
@@ -24,7 +24,7 @@ public class CheckingArrays {
     private boolean checkForSymmetry(String[] input){
         int j = input.length-1;
         for(int i = 0; i<(input.length/2); i++){
-                if (input[i]!=input[j]) {
+                if (!input[i].equals(input[j])) {
                     return false;
                 }
                 j--;
